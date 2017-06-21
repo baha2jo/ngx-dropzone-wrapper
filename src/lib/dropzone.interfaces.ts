@@ -78,7 +78,8 @@ export interface DropzoneConfigInterface {
   dictCancelUpload?: string,
   dictFallbackText?: string,
   dictMaxFilesExceeded?: string,
-  dictCancelUploadConfirmation?: string
+  dictCancelUploadConfirmation?: string,
+  withCredentials?: boolean
 }
 
 export class DropzoneConfig implements DropzoneConfigInterface {
